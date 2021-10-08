@@ -38,19 +38,23 @@ h1,h2,h3,h4,h5,h6{
   border-bottom: 1px solid var(--border-color);
   padding-bottom: 7px;
   margin-bottom: 7px;
+  color: var(--top-part-color);
 }
 
 main{
-  width: 95%;
-  padding: 12px;
+  width: 100%;
+  
   margin-left: auto;
   font-family: var(--bsfont);
   margin-right: auto;
 }
 #personal-statement{
-  font-size: 1.1rem;
+  font-size: 1rem;
+  margin-left: 4px;
 }
-
+#bottom-part{
+  padding: 28px;
+}
 #name-heading{
   margin-left:auto;
   margin-right:auto;
@@ -60,14 +64,14 @@ main{
 
 #profile-pic{
   max-width: 100%;
-  height:200px;
+  height:250px;
   border: 2px solid white;
-  border-radius:100%;
+  border-radius:58px;
 }
 
 #contacts{
   margin-top:5px;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 .main-icon{
@@ -81,15 +85,30 @@ main{
   width: 30px;
   margin-right: 10px;
 }
-
+.code-head{
+  font-size: 1.2rem;
+}
+.code-section{
+  width:100%;
+}
+.code-skill{
+  margin-top: 10px;
+}
+.bullet-point{
+  height: 100%;
+  width: 15px;
+  margin-right: 10px;
+}
 #top-part{
   width: 100%;
-  padding: 14px;
-  height: 400px;
+  padding: 10px;
+  
   display:grid;
   grid-template-columns: 1fr 2fr;
   background-color: var(--top-part-color);
-  color: white;
+  color: white ;
+  /*
   border-bottom-left-radius: 24px;
   border-bottom-right-radius: 24px;
+  */
 }
