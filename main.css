@@ -26,7 +26,9 @@ h1,h2,h3,h4,h5,h6{
   flex-direction: column;
   
 }
-
+#experience{
+  font-size: 1.2rem;
+}
 .flex-align-center{
   align-items: center;
   justify-content: center;
@@ -85,14 +87,14 @@ main{
 .main-icon{
   height: 100%;
   width: 45px;
-  margin-right:10px;
+  margin-right:12px;
 }
 .skill-container{
   padding: 8px;
   margin: 7px;
-  width: 165px;
+  width: 145px;
   
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   border: 2px solid hsl(0, 0%, 95%);
   border-radius: 20px;
 }
@@ -126,7 +128,10 @@ main{
 .contact-icon{
   height: 100%;
   width: 30px;
-  margin-right: 10px;
+  margin-right: 12px;
+}
+.education-piece{
+  margin-bottom: 10px;
 }
 .code-head{
   font-size: 1.2rem;
@@ -137,10 +142,14 @@ main{
 .code-skill{
   margin-bottom: 10px;
 }
+
 .bullet-point{
   height: 100%;
-  width: 15px;
-  margin-right: 10px;
+  width: 10px;
+  margin-right: 12px;
+}
+#education{
+  font-size: 1.2rem;
 }
 #top-part{
   width: 100%;
