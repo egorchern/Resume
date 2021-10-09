@@ -12,6 +12,7 @@ h1,h2,h3,h4,h5,h6{
   --top-part-color: hsl(208, 98%, 23%);
   --bsfont: "Lato", sans-serif;
   --border-color: hsl(0, 0%, 55%);
+  --skill-bar-outer-color: hsl(0, 0%, 95%);
 }
 
 .flex-horizontal{
@@ -23,6 +24,7 @@ h1,h2,h3,h4,h5,h6{
 .flex-vertical{
   display: flex;
   flex-direction: column;
+  
 }
 
 .flex-align-center{
@@ -55,6 +57,9 @@ main{
 #bottom-part{
   padding: 28px;
 }
+#bottom-part > div{
+  margin-bottom: 15px;
+}
 #name-heading{
   margin-left:auto;
   margin-right:auto;
@@ -73,13 +78,51 @@ main{
   margin-top:5px;
   font-size: 1.1rem;
 }
+#contacts > div{
+  margin-bottom: 4px;
+}
 
 .main-icon{
   height: 100%;
   width: 45px;
   margin-right:10px;
 }
-
+.skill-container{
+  padding: 8px;
+  margin: 7px;
+  width: 165px;
+  
+  font-size: 1.3rem;
+  border: 2px solid hsl(0, 0%, 95%);
+  border-radius: 20px;
+}
+.skill-bar{
+  height: 15px;
+  width: 100%;
+  background-color: var(--skill-bar-outer-color);
+  border-radius: 12px;
+}
+.skill-bar-fill{
+  border-radius: 12px;
+  height: 100%;
+  background: rgb(251,104,63);
+  background: linear-gradient(90deg, rgba(251,104,63,1) 0%, rgba(250,124,226,1) 100%);
+}
+.skill-bar-fill-1{
+  width: 20%;
+}
+.skill-bar-fill-2{
+  width: 40%;
+}
+.skill-bar-fill-3{
+  width: 60%;
+}
+.skill-bar-fill-4{
+  width: 80%;
+}
+.skill-bar-fill-5{
+  width: 100%;
+}
 .contact-icon{
   height: 100%;
   width: 30px;
@@ -92,7 +135,7 @@ main{
   width:100%;
 }
 .code-skill{
-  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .bullet-point{
   height: 100%;
